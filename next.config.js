@@ -1,9 +1,6 @@
-module.exports = {
-  exportPathMap: function () {
-    return {
-      '/': { page: '/' },
-     
-    }
-  }
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
 }
-// module.exports = nextConfig
+
+module.exports = nextConfig
